@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2242AA8D219F3D0A0088E4F8 /* FieldSurveySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242AA8C219F3D0A0088E4F8 /* FieldSurveySelectionViewController.swift */; };
+		2242AA8F219F3EA80088E4F8 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242AA8E219F3EA80088E4F8 /* SelectionViewController.swift */; };
 		2262AB86219E57B100C07629 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262AB85219E57B100C07629 /* AppDelegate.swift */; };
-		2262AB88219E57B100C07629 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262AB87219E57B100C07629 /* ViewController.swift */; };
 		2262AB8B219E57B100C07629 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2262AB89219E57B100C07629 /* Main.storyboard */; };
 		2262AB8D219E57B200C07629 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2262AB8C219E57B200C07629 /* Assets.xcassets */; };
 		2262AB90219E57B200C07629 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2262AB8E219E57B200C07629 /* LaunchScreen.storyboard */; };
@@ -34,9 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2242AA8C219F3D0A0088E4F8 /* FieldSurveySelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveySelectionViewController.swift; sourceTree = "<group>"; };
+		2242AA8E219F3EA80088E4F8 /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
 		2262AB82219E57B100C07629 /* Field Survey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Field Survey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2262AB85219E57B100C07629 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2262AB87219E57B100C07629 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2262AB8A219E57B100C07629 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2262AB8C219E57B200C07629 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2262AB8F219E57B200C07629 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				2262AB85219E57B100C07629 /* AppDelegate.swift */,
-				2262AB87219E57B100C07629 /* ViewController.swift */,
+				2242AA8C219F3D0A0088E4F8 /* FieldSurveySelectionViewController.swift */,
 				2262AB89219E57B100C07629 /* Main.storyboard */,
 				2262AB8C219E57B200C07629 /* Assets.xcassets */,
 				2262AB8E219E57B200C07629 /* LaunchScreen.storyboard */,
 				2262AB91219E57B200C07629 /* Info.plist */,
+				2242AA8E219F3EA80088E4F8 /* SelectionViewController.swift */,
 			);
 			path = "Field Survey";
 			sourceTree = "<group>";
@@ -256,7 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2262AB88219E57B100C07629 /* ViewController.swift in Sources */,
+				2242AA8D219F3D0A0088E4F8 /* FieldSurveySelectionViewController.swift in Sources */,
+				2242AA8F219F3EA80088E4F8 /* SelectionViewController.swift in Sources */,
 				2262AB86219E57B100C07629 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
