@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2242AA8D219F3D0A0088E4F8 /* FieldSurveySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242AA8C219F3D0A0088E4F8 /* FieldSurveySelectionViewController.swift */; };
 		2242AA8F219F3EA80088E4F8 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242AA8E219F3EA80088E4F8 /* SelectionViewController.swift */; };
+		2242AA94219F52F30088E4F8 /* SurveyData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2242AA93219F52F30088E4F8 /* SurveyData.json */; };
+		2242AA9C219F75E00088E4F8 /* ObservationEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242AA9B219F75E00088E4F8 /* ObservationEventViewController.swift */; };
+		2242AA9E219F76250088E4F8 /* ObservationEventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242AA9D219F76250088E4F8 /* ObservationEventDetailViewController.swift */; };
+		2242AAA021A109240088E4F8 /* ObservationEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242AA9F21A109240088E4F8 /* ObservationEventTableViewCell.swift */; };
+		2242AAAC21A1250C0088E4F8 /* ObservationCollectionLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242AAAB21A1250C0088E4F8 /* ObservationCollectionLoader.swift */; };
+		2242AAAE21A125980088E4F8 /* ObservationCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242AAAD21A125980088E4F8 /* ObservationCollection.swift */; };
 		2262AB86219E57B100C07629 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262AB85219E57B100C07629 /* AppDelegate.swift */; };
 		2262AB8B219E57B100C07629 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2262AB89219E57B100C07629 /* Main.storyboard */; };
 		2262AB8D219E57B200C07629 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2262AB8C219E57B200C07629 /* Assets.xcassets */; };
@@ -35,8 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2242AA8C219F3D0A0088E4F8 /* FieldSurveySelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveySelectionViewController.swift; sourceTree = "<group>"; };
 		2242AA8E219F3EA80088E4F8 /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
+		2242AA93219F52F30088E4F8 /* SurveyData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SurveyData.json; sourceTree = "<group>"; };
+		2242AA9B219F75E00088E4F8 /* ObservationEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationEventViewController.swift; sourceTree = "<group>"; };
+		2242AA9D219F76250088E4F8 /* ObservationEventDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationEventDetailViewController.swift; sourceTree = "<group>"; };
+		2242AA9F21A109240088E4F8 /* ObservationEventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationEventTableViewCell.swift; sourceTree = "<group>"; };
+		2242AAAB21A1250C0088E4F8 /* ObservationCollectionLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationCollectionLoader.swift; sourceTree = "<group>"; };
+		2242AAAD21A125980088E4F8 /* ObservationCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationCollection.swift; sourceTree = "<group>"; };
 		2262AB82219E57B100C07629 /* Field Survey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Field Survey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2262AB85219E57B100C07629 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2262AB8A219E57B100C07629 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -76,6 +86,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2242AA90219F4A380088E4F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2242AA93219F52F30088E4F8 /* SurveyData.json */,
+				2242AAAB21A1250C0088E4F8 /* ObservationCollectionLoader.swift */,
+				2242AAAD21A125980088E4F8 /* ObservationCollection.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		2262AB79219E57B100C07629 = {
 			isa = PBXGroup;
 			children = (
@@ -99,8 +119,11 @@
 		2262AB84219E57B100C07629 /* Field Survey */ = {
 			isa = PBXGroup;
 			children = (
+				2242AA90219F4A380088E4F8 /* Model */,
 				2262AB85219E57B100C07629 /* AppDelegate.swift */,
-				2242AA8C219F3D0A0088E4F8 /* FieldSurveySelectionViewController.swift */,
+				2242AA9F21A109240088E4F8 /* ObservationEventTableViewCell.swift */,
+				2242AA9B219F75E00088E4F8 /* ObservationEventViewController.swift */,
+				2242AA9D219F76250088E4F8 /* ObservationEventDetailViewController.swift */,
 				2262AB89219E57B100C07629 /* Main.storyboard */,
 				2262AB8C219E57B200C07629 /* Assets.xcassets */,
 				2262AB8E219E57B200C07629 /* LaunchScreen.storyboard */,
@@ -235,6 +258,7 @@
 				2262AB90219E57B200C07629 /* LaunchScreen.storyboard in Resources */,
 				2262AB8D219E57B200C07629 /* Assets.xcassets in Resources */,
 				2262AB8B219E57B100C07629 /* Main.storyboard in Resources */,
+				2242AA94219F52F30088E4F8 /* SurveyData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2242AA8D219F3D0A0088E4F8 /* FieldSurveySelectionViewController.swift in Sources */,
+				2242AAAC21A1250C0088E4F8 /* ObservationCollectionLoader.swift in Sources */,
+				2242AAA021A109240088E4F8 /* ObservationEventTableViewCell.swift in Sources */,
 				2242AA8F219F3EA80088E4F8 /* SelectionViewController.swift in Sources */,
+				2242AA9C219F75E00088E4F8 /* ObservationEventViewController.swift in Sources */,
 				2262AB86219E57B100C07629 /* AppDelegate.swift in Sources */,
+				2242AAAE21A125980088E4F8 /* ObservationCollection.swift in Sources */,
+				2242AA9E219F76250088E4F8 /* ObservationEventDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
